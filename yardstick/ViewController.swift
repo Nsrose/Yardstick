@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+//    var manager:CLLocationManager!
+//    let locationManager = CLLocationManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func setStartLocation(sender: AnyObject) {
+        var D:Distance = Distance()
+        
+    }
 
 }
 
